@@ -35,8 +35,9 @@ h2 {
 .card {
   background-color: #FFF;
   border: none;
-  border-top: 5px solid;
+  border-top: 6px solid;
   border-radius: 2.5%;
+  box-shadow: 0px 7.5px 15px 1px hsl(0, 0%, 90%);
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -58,7 +59,7 @@ h3 {
 }
 
 p {
-  font-weight: 200;
+  font-weight: 400;
   font-size: 15px;
 }
 
@@ -127,9 +128,6 @@ img {
   }
   .card {
     width: 100%;
-  }
-  .supervisor, .calculator {
-    float: none;
   }
   .card-columns {
     flex-direction: column;
