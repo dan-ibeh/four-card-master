@@ -1,0 +1,92 @@
+body {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(229, 6%, 66%);
+  font-family: 'Poppins', sans-serif;
+  margin: 5% 10%;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: hsl(234, 12%, 34%);
+}
+
+h1 {
+  font-weight: 200;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 600;
+  margin: 0;
+}
+
+h4 {
+  display: inline-block;
+  width: 45%;
+}
+
+.card-columns {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #FFF;
+  border: none;
+  border-top: 5px solid;
+  border-radius: 2.5%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 250px;
+  margin: 20px 0;
+  text-align: left;
+  width: 30%;
+}
+
+.container {
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+h4, p {
+  font-weight: 200;
+  font-size: 15px;
+}
+
+img {
+  margin-left: 75%;
+  padding-top: 10px;
+}
+
+.supervisor {
+  border-color: hsl(180, 62%, 55%);
+  float: left;
+}
+.calculator {
+  border-color: hsl(212, 86%, 64%);
+  float: right;
+}
+.team {
+  border-color: hsl(0, 78%, 62%);
+}
+.karma {
+  border-color: hsl(34, 97%, 64%);
+}
+.team, .karma {
+  width: 100%;
+}
+.card-row {
+  display: inline-block;
+  margin: 10px;
+  width: 30%;
+}
