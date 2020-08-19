@@ -64,8 +64,9 @@ p {
 }
 
 img {
-  margin-left: 75%;
-  padding-top: 10px;
+  display: block;
+  margin-left: auto;
+  padding-top: 10%;
 }
 
 .supervisor {
@@ -110,6 +111,9 @@ img {
   .calculator {
     float: left;
   }
+  img {
+    padding-top: 2%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -139,6 +143,7 @@ img {
   }
   img {
     margin-left: 70%;
+    padding-top: 10%;
   }
 }
 
